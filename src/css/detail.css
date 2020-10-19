@@ -1,0 +1,85 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+h1, h2, h3 {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  color: #848484;
+}
+
+a {
+  color: #848484;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container-fluid {
+  width: 100%;
+  position: relative;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+#head .head-nav {
+  height: 30px;
+  background: #2e2828;
+}
+
+#head .head-nav li {
+  float: left;
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+#head .head-logo img {
+  width: 200px;
+}
+
+#foot {
+  background: #848484;
+  height: 300px;
+}
+
+#foot ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#foot i {
+  font-size: 30px;
+}
+
+/* detail页 自己的样式 */
